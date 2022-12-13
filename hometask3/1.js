@@ -9,4 +9,4 @@
 
 const temprature = parseInt(prompt('Введите температуру по Цельсию: '));
 const fahrenheit = ((9 / 5) * temprature + 32).toFixed(1);
-alert(`Цельсий: ${temprature}, Фаренгейт: ${fahrenheit}`)
+alert(`Цельсий: ${temprature}, Фаренгейт: ${fahrenheit}`);
