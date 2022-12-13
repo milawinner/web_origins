@@ -10,7 +10,7 @@ function printHello(name) {
             alert('Здравствуйте, Павел, вы - отличный учитель!');
             break;
         default:
-            alert(`Привет, ${name}!`)
+            alert(`Привет, ${name}!`);
 }
 }
 
