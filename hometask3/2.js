@@ -5,13 +5,13 @@
 const yourname = prompt('Как вас зовут?');
 
 function printHello(name) {
-    switch(name) {
+    switch (name) {
         case 'Павел':
             alert('Здравствуйте, Павел, вы - отличный учитель!');
             break;
         default:
-            alert(`Привет, ${name}!`);
-}
+            console.log(`Привет, ${name}!`);
+    }
 }
 
 printHello(yourname);
